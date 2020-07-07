@@ -13,8 +13,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>9</source>
-                    <target>9</target>
+                    <source>11</source>
+                    <target>11</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -24,5 +24,23 @@
         <maven.compiler.source>1.12</maven.compiler.source>
     </properties>
 
+    <repositories>
+    <repository>
+        <id>netbeans</id>
+        <name>netbeans</name>
+        <url>http://bits.netbeans.org/maven2</url>
+    </repository>
+</repositories>
+
+
+
+<dependencies>
+    <dependency>
+        <!-- This will need to be updated now that NetBeans is part of Apache works as of 11/12/2018 -->
+        <groupId>org.netbeans.modules</groupId>
+        <artifactId>org-netbeans-lib-profiler</artifactId>
+        <version>RELEASE802</version>
+    </dependency>
+</dependencies>
 
 </project>

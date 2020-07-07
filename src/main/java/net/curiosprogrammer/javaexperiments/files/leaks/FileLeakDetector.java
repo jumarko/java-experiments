@@ -8,7 +8,9 @@ import java.io.IOException;
  * Experiments with https://file-leak-detector.kohsuke.org
  * See <a href="https://github.com/kohsuke/file-leak-detector/blob/master/src/main/java/org/kohsuke/file_leak_detector/AgentMain.java"
  * AgentMain</a> for complete list of options.
- * 
+ *
+ * Note: for the Java 11 support you need to build a custom version from this fork: https://github.com/akwiatek/file-leak-detector/tree/java11
+ * -> see https://github.com/kohsuke/file-leak-detector/pull/48
  */
 public class FileLeakDetector {
 

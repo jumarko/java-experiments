@@ -13,5 +13,6 @@ public class Numbers {
 
     public static void main(String[] args) {
         overloadNumber(1);
+        System.out.println(Long.MIN_VALUE - 1);
     }
 }
