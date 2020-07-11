@@ -2,7 +2,6 @@ package net.curiosprogrammer.javaexperiments.compiler;
 
 import java.io.File;
 import java.io.IOException;
-
 import javax.tools.ToolProvider;
 
 public class JavaCompiler {
